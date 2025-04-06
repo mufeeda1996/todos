@@ -52,3 +52,10 @@ button:hover {
 #completed-tasks span{
   font-weight: 400;
 }
+@media (max-width: 576px) {
+  .todo-card .editInput{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+   } 
+}

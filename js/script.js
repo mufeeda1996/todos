@@ -59,8 +59,10 @@ addBtn.addEventListener('click', () => {
 
     const input = document.createElement('input');
     input.type = 'text';
-    input.className="d-flex flex-column ";
+    input.className="d-flex column align-items-center editInput ";
     input.value = span.textContent;
+
+    
 
     input.addEventListener('blur', () => {
       if (input.value.trim() !== '') {
